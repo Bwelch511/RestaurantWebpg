@@ -1,0 +1,150 @@
+:root{
+    --primary: green;
+    --secondary: rgba(255, 255, 255, 0.748);
+    --thirdary: rgb(184, 0, 0);
+    --light: rgb(218, 218, 172);
+    --dark: black;
+  }
+  .App{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid;
+  }
+  #top-part{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary);
+    color:  var(--secondary);
+  }
+  #phone {
+   font-size: 20px;
+  }
+  #name{
+   justify-content: center;
+  }
+
+ body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--light);
+ }
+ #home{
+    text-align: center;
+    padding-top: 10vh;
+    height: 80vh;
+ }
+
+.hbox{
+   width: 90%;
+   height: 100%;
+   margin: auto;
+   background-color: var(--secondary);
+   border: 1px solid;
+}
+#h-box2{
+   width: 90%;
+   height: 250%;
+   margin: auto;
+   background-color: var(--secondary);
+   border: 1px solid;
+}
+#h-box3{
+   background-color: var(--thirdary);
+   height: 150%;
+}
+.abtimgs{
+   width: 100%;
+   height: auto;
+}
+#abt-img{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+#abt{
+   text-align: center;
+   margin: auto;
+   font-size: 18px;
+   width: 40%;
+   font-family: 'Italiana', serif;
+   background-color: var(--secondary);
+   z-index: 1;
+}
+#hours{
+   text-align: center;
+   width: 20%;
+   height: 22%;
+   margin: auto;
+   background-color: var(--secondary);
+   font-size: large;
+}
+#contact{
+   color: var(--secondary);
+}
+#welcome-img{
+ width: 98%;
+ height: 85%;
+}
+#app-img{
+   width: 80%;
+   height: 50%;
+}
+#pasta-img{
+   width: 80%;
+   height: 50%;
+}
+#grill-img{
+   width: 80%;
+   height: 50%;
+}
+#pizza-img{
+   width: 65%;
+   height: 40%;
+}
+#desert-img{
+   width: 70%;
+   height: 50%;
+}
+#menu-cont{
+   height: 100%;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 30% 30% 40%;
+   grid-template-rows: 25% 25% 25% 25%;
+}
+ul {
+   list-style: none;
+}
+#app-menu{
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 3;
+}
+#pasta-menu{
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 3;
+   grid-row-end: 4;
+}
+#grille-menu {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+#pizza-menu {
+   grid-column-start: 3;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 3;
+}
+#desert-menu {
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 3;
+   grid-row-end: 4;
+}
